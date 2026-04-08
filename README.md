@@ -1,1 +1,3 @@
-# rayymanx-web-project
+## Prjoect 2 - HTML Foundation Page
+
+My Webpage is about the Boston Red Sox because I'm a huge baseball fan. My Page includes a little bit of information about why I like the red sox and their most recent world series wins. While creating this page, I learned how to navigate through VScode a bit more. Still getting used to it even though I used it in previous classes a bit. I learned how to apply headings, paragraphs, lists, and tables aside from doing it in zybooks. One challenge I faced was ensuring my File Paths were correct and getting the images correct.
