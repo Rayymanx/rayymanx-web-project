@@ -37,5 +37,24 @@ li {
 
 a:hover {
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #FFFFFF;
+}
+
+th, td {
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+img {
+    margin-top: 10px;
 }
