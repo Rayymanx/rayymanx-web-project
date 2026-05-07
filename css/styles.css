@@ -58,3 +58,79 @@ th, td {
 img {
     margin-top: 10px;
 }
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav a:hover {
+    color: #BD3039;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #BD3039;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8f1f27;
+}
+
+#messageBox {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p,
+li,
+td,
+th {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    }
+}
