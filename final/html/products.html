@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
+    <title>GreenTech Solutions | Products</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Products and Services</h1>
+    <div class="header-container">
+        <div>
+            <h1>Products and Services</h1>
+            <p>Explore our eco-friendly technology solutions.</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
 
-<input type="text" id="productSearch" placeholder="Search eco products...">
+    <section>
+        <h2>Our Eco-Friendly Solutions</h2>
+        <p>Explore GreenTech products designed to help businesses become more sustainable.</p>
 
-<section class="cards">
+        <label for="productSearch">Search Products:</label>
+        <input type="text" id="productSearch" placeholder="Search eco products...">
+    </section>
 
-<article class="card product">
-    <img src="../images/bee.jpg" alt="Bee image">
-    <h3>Carbon Tracking Software</h3>
-</article>
+    <section class="cards" id="productList">
 
-<article class="card product">
-    <img src="../images/Bird.jpg" alt="Bird image">
-    <h3>Smart Recycling System</h3>
-</article>
+        <article class="card product">
+            <img src="../images/bee.jpg" alt="Bee on a flower representing natural sustainability">
+            <h3>Carbon Tracking Software</h3>
+            <p>Track emissions, monitor progress, and generate sustainability reports.</p>
+        </article>
 
-</section>
+        <article class="card product">
+            <img src="../images/Bird.jpg" alt="Bird in nature representing environmental protection">
+            <h3>Smart Recycling System</h3>
+            <p>Use smart technology to organize and improve recycling operations.</p>
+        </article>
+
+        <article class="card product">
+            <img src="../images/road.jpg" alt="Green road representing sustainable planning">
+            <h3>Energy Efficiency Consulting</h3>
+            <p>Receive recommendations for reducing energy use and improving sustainability.</p>
+        </article>
+
+    </section>
 
 </main>
+
+<footer>
+    <p>&copy; 2026 GreenTech Solutions. All rights reserved.</p>
+</footer>
 
 <script src="../js/script.js"></script>
 </body>

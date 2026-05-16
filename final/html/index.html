@@ -9,18 +9,22 @@
 <body>
 
 <header>
-    <h1>GreenTech Solutions</h1>
-    <p>Eco-friendly technology for a cleaner future.</p>
+    <div class="header-container">
+        <div>
+            <h1>GreenTech Solutions</h1>
+            <p>Eco-friendly technology for a cleaner future.</p>
+        </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
@@ -33,6 +37,43 @@
             <p>GreenTech Solutions helps businesses reduce their carbon footprint through eco-friendly technology, smart recycling systems, and carbon tracking software.</p>
             <a class="button" href="products.html">Explore Our Products</a>
         </div>
+    </section>
+
+    <section>
+        <h2>Our Mission</h2>
+        <p>Our mission is to promote sustainability by making environmental technology easier for small and medium-sized businesses to understand and use.</p>
+    </section>
+
+    <section class="cards">
+        <article class="card">
+            <img src="../images/bee.jpg" alt="Bee pollinating a flower">
+            <h3>Smart Energy</h3>
+            <p>Energy-efficient solutions help businesses reduce waste, save money, and support a healthier planet.</p>
+        </article>
+
+        <article class="card">
+            <img src="../images/Bird.jpg" alt="Bird resting in nature">
+            <h3>Eco Tracking</h3>
+            <p>Carbon tracking software gives companies clear data about their environmental impact.</p>
+        </article>
+
+        <article class="card">
+            <img src="../images/road.jpg" alt="Open road surrounded by greenery">
+            <h3>Sustainable Planning</h3>
+            <p>GreenTech supports long-term planning for companies that want to adopt sustainable practices.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Subscribe to Our Newsletter</h2>
+
+        <form id="newsletterForm">
+            <label for="newsletterEmail">Email Address:</label>
+            <input type="email" id="newsletterEmail" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+
+        <p id="newsletterMessage"></p>
     </section>
 
 </main>
